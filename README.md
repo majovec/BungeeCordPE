@@ -16,4 +16,6 @@
 # Can I help out the team/contribute to BungeeCordPE?
  Why not? Just create a pull request. We're always looking for developers to help out with the project!
  
- 
+# What is BungeeCordPE written in?
+BungeeCordPE will be written in PHP, same as [BukkitPE](https://www.github.com/BukkitPE/BukkitPE)
+But if you have any suggestions, be sure to tell us :) 
