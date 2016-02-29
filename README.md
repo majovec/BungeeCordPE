@@ -13,7 +13,7 @@
  But features will be limited due to some packets being changed in MCPE. But again it will mainly be for
  BukkitPE and should not be used in any "Custom MCPE Server Softwares" no exceptions. :) 
  
-# Can I help out the team and contribute to BukkitPE?
+# Can I help out the team and contribute to BungeeCordPE?
  Why not? Just create a pull request. We're always looking for developers to help out with the project!
  
  
