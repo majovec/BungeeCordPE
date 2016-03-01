@@ -1,0 +1,5 @@
+name: BungeeCordPE
+version: 1.0.0
+api: 1.0.0
+description: transport between multiple MCPE Servers
+author: BukkitPE Team, [AndreTheGamer] , [DelxHQ]
