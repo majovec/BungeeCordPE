@@ -1,1 +1,8 @@
 #Configuration file for BungeeCordPE
+
+#Were you want the client to be sent to.
+Server:
+- IP: play.Example.net
+- Port: 19132
+
+...
