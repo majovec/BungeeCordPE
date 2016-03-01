@@ -19,3 +19,8 @@
 # What is BungeeCordPE written in?
 BungeeCordPE will be written in PHP, same as [BukkitPE](https://www.github.com/BukkitPE/BukkitPE)
 But if you have any suggestions, be sure to tell us :) 
+
+# Is this ready?
+As of now, it isn't. But you can help us by contributing. 
+# How do i install this?
+Jump  BungeeCordPE on BukkitPE plugin folder and restart server/edit config
