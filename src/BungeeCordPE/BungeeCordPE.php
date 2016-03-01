@@ -26,3 +26,14 @@ namespace BungeeCord;
 use BukkitPE\plugin\PluginBase;
 use BukkitPE\event\Listener;;
 use BukkitPE\utils\Config;
+
+class Main extends PluginBase implements Listener{
+
+public function onEnable() {
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
+        $this->config = (new Config($this->getDataFolder()."BungeeCordPE.yml", Config::YAML))->getAll();
+        $this->saveDefaultConfig();
+        $this->getLogger()->info("[BungeeCordPE] Plugin has been enabled");
+}
+}
+}
