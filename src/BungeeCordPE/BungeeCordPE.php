@@ -20,3 +20,9 @@
  *
  *
 */
+
+namespace BungeeCord;
+
+use BukkitPE\plugin\PluginBase;
+use BukkitPE\event\Listener;;
+use BukkitPE\utils\Config;
