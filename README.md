@@ -5,6 +5,7 @@
 # Features
  - [x] Ability to transfer servers running BukkitPE to another
  - [x] Everything from packets,date..ect) is handle by BungeeCordPE
+ - [x] Servers only need a plugin, no source changes.
  - [x] This is a port from BungeeCordPE, and will be maintained/work for [BukkitPE](https://github.com/bukkitpe/bukkit) only
  
 
