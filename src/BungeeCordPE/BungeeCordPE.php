@@ -24,14 +24,17 @@
 namespace BungeeCord;
 
 use BukkitPE\plugin\PluginBase;
-use BukkitPE\event\Listener;;
+use BukkitPE\event\player\PlayerRespawnEvent;
+use BukkitPE\event\player\PlayerPreLoginEvent;
 use BukkitPE\utils\Config;
+use BukkitPE\event\Listener;
+use BukkitPE\network\protocol\Info;
 
 class Main extends PluginBase implements Listener{
 
 public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->config = (new Config($this->getDataFolder()."BungeeCordPE.yml", Config::YAML))->getAll();
+        $this->config = (new Config($this->getDataFolder()."Config.yml", Config::YAML))->getAll();
         $this->saveDefaultConfig();
         $this->getLogger()->info("[BungeeCordPE] Plugin has been enabled");
 }
