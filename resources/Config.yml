@@ -8,6 +8,9 @@ Port:
 # BungeeCordPE can be on default port: 19132 and Hub is on a different port like 19133.
 # Forcing a default server will force any players connecting through the ip to always join a server like Hub ..ect)
 # Max players is the max of players that can be on all servers at once. The host is the ip/port bungeecordpe will listen on. 
+
+
+
 query_port: 19132
 Force Default: false
 Default_server: Hub
