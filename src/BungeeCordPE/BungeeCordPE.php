@@ -36,7 +36,9 @@ public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->config = (new Config($this->getDataFolder()."Config.yml", Config::YAML))->getAll();
         $this->saveDefaultConfig();
-        $this->getLogger()->info("[BungeeCordPE] Plugin has been enabled");
+        $this->getLogger()->info("BungeeCordPE has been enabled");
 }
+public function onDisable(){
+        $this->getLogger()->info("BungeeCordPE has been disabled");
 }
 }
