@@ -24,5 +24,4 @@ But if you have any suggestions, be sure to tell us :)
 # Is this ready?
 As of now, it isn't. But you can help us by contributing. 
 # How do i install this?
-Drop  BungeeCordPE.jar on BukkitPE plugin folder and restart server/edit config. You may also run it
-from sourcem ake sure you have BukkitPE Devs tools. 
+Drop  BungeeCordPE.jar on BukkitPE plugin folder and restart server/edit config.
