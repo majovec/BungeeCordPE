@@ -1,5 +1,3 @@
-<?php
-
 /*
  *
  *______                             _____               _______ _____ 
@@ -13,7 +11,7 @@
  *
  * This program is free software, and it's under the  Creative Commons 
  * Attribution-NonCommercial-NoDerivatives 4.0 , You can modify. But 
- * you may not use the material for commercial purposes. 
+ * you may not import the material for commercial purposes. 
  *
  * @author BukkitPE Team
  * @link http://www.bukkitpe.net/
@@ -21,24 +19,25 @@
  *
 */
 
-namespace BungeeCord;
+package net.BukkitPE.BungeeCordPE;
 
-use BukkitPE\plugin\PluginBase;
-use BukkitPE\event\player\PlayerRespawnEvent;
-use BukkitPE\event\player\PlayerPreLoginEvent;
-use BukkitPE\utils\Config;
-use BukkitPE\event\Listener;
-use BukkitPE\network\protocol\Info;
+import net.BukkitPE.plugin.PluginBase;
+import net.BukkitPE.event.player.PlayerRespawnEvent;
+import net.BukkitPE.event.player.PlayerPreLoginEvent;
+import net.BukkitPE.utils.Config;
+import net.BukkitPE.event.Listener;
+import net.BukkitPE.network.protocol.ProtocolInfo;
 
-class Main extends PluginBase implements Listener{
-
-public function onEnable() {
-        $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->config = (new Config($this->getDataFolder()."Config.yml", Config::YAML))->getAll();
-        $this->saveDefaultConfig();
-        $this->getLogger()->info("BungeeCordPE has been enabled");
-}
-public function onDisable(){
-        $this->getLogger()->info("BungeeCordPE has been disabled");
-}
+public class BungeeCordPE extends PluginBase implements Listener{
+    @Override
+    public void onEnable() {
+        this.getServer().getPluginManager().registerEvents(this, this);
+        this.saveDefaultConfig();
+        this.getLogger().info("BungeeCordPE has been enabled");
+    }
+    
+    @Override
+    public void onDisable(){
+        this.getLogger().info("BungeeCordPE has been disabled");
+    }
 }
