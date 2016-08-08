@@ -6,7 +6,7 @@
  - [x] Ability to transfer servers running BukkitPE to another
  - [x] Everything from packets,date..ect) is handle by BungeeCordPE
  - [x] Servers only need a plugin, no source changes.
- - [x] This is a port from BungeeCordPE, and will be maintained/work for [BukkitPE](https://github.com/bukkitpe/bukkitpe) only
+ - [x] This is a port from BungeeCord - a Spigot proxy system, and will be maintained/work for [BukkitPE](https://github.com/bukkitpe/bukkitpe) or any MCPE Server Softwares
  
 
 # What is this?
