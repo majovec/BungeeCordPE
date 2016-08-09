@@ -1,14 +1,31 @@
 package net.BungeeCordPE.BungeeCordPE;
-
 import net.BungeeCordPE.BungeeCordPE.util.ProxyException;
 
-/**
- * Main class
- */
+/*
+ *
+ * ____                               _____              _ _____  ______ 
+ *|  _ \                             / ____|            | |  __ \|  ____|
+ *| |_) |_   _ _ __   __ _  ___  ___| |     ___  _ __ __| | |__) | |__   
+ *|  _ <| | | | '_ \ / _` |/ _ \/ _ \ |    / _ \| '__/ _` |  ___/|  __|  
+ *| |_) | |_| | | | | (_| |  __/  __/ |___| (_) | | | (_| | |    | |____ 
+ *|____/ \__,_|_| |_|\__, |\___|\___|\_____\___/|_|  \__,_|_|    |______|
+ *                    __/ |                                              
+ *                   |___/                                               
+ *                                          
+ *
+ * This program is free software, and it's under GNU General Public License v3.0+
+ * You can redistribute it and/or modify under the same license.
+ *
+ * @author BukkitPE Team
+ * @link http://www.bukkitpe.net/
+ *
+ *
+*/
+
 public class BungeeCordPE implements Runnable{
     public final static String SOFTWARE_VERSION = "v1.1-SNAPSHOT";
-    public final static String MCPE_VERSION = "0.14.0";
-    public final static int MCPE_PROTOCOL = 45;
+    public final static String MCPE_VERSION = "0.15.4";
+    public final static int MCPE_PROTOCOL = 82;
 
     public static MinecraftPEServer SERVER_INSTANCE;
     public static int PORT = 49256;
