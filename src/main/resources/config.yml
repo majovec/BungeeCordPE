@@ -1,10 +1,33 @@
-#BouncyBall config file.
-#RemoteServer and RemoteServer port are for the main server all users connect to.
+#Configuration file for BungeeCordPE
 
-#Remote Server information:
-remoteServer: localhost
-remoteServerPort: 19133
 
-#Logging information.
-logDecodeErrors: true
-logChat: true
+#BungeeCordPE listen port, What port will BungeeCordPE listens on? Ex: 19132 but hub should be on different port.
+Port:
+
+# Query_port is the port BungeeCordPE willl listen on. But please be advised that the hub or other server cannot be on the same port. For example
+# BungeeCordPE can be on default port: 19132 and Hub is on a different port like 19133.
+# Forcing a default server will force any players connecting through the ip to always join a server like Hub ..ect)
+# Max players is the max of players that can be on all servers at once. The host is the ip/port bungeecordpe will listen on. 
+
+
+
+query_port: 19132
+Force Default: false
+Default_server: Hub
+max_players: 500
+fallback_server: Hub
+host: localhost:19133
+  
+#To add a new server, Just use the following example format
+#Example:
+# IP:
+# Port:
+#
+Servers:
+   Hub:
+     IP: test.example.com
+       Port: 19133
+       motd: "A BungeeCordPE Server"
+       
+
+...
