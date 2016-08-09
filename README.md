@@ -7,7 +7,8 @@
  - [x] Everything from packets,date..ect) is handle by BungeeCordPE
  - [x] Servers only need a plugin, no source changes.
  - [x] This is a port from BungeeCord - a Spigot proxy system, and will be maintained/work for [BukkitPE](https://github.com/bukkitpe/bukkitpe) or any MCPE Server Softwares
- 
+ - [x] Have full control of your BungeeCordPE Proxy!
+ - [x] Transfer to other servers using `/server <name>`
 # Status
 
 Current status: Alpha
