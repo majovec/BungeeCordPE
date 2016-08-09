@@ -9,8 +9,8 @@
  - [x] This is a port from BungeeCord - a Spigot proxy system, and will be maintained/work for [BukkitPE](https://github.com/bukkitpe/bukkitpe) or any MCPE Server Softwares
  - [x] Have full control of your BungeeCordPE Proxy!
  - [x] Transfer to other servers using `/server <name>`
-# Status
 
+# Status
 Current status: Alpha
 
 You are free to test it, and report bugs via the "Issues". Currently BungeeCordPE is on it testing stages
