@@ -8,18 +8,8 @@
  - [x] Servers only need a plugin, no source changes.
  - [x] This is a port from BungeeCord - a Spigot proxy system, and will be maintained/work for [BukkitPE](https://github.com/bukkitpe/bukkitpe) or any MCPE Server Softwares
  
+# Status
 
-# What is this?
- BungeeCordPE is a port from a BungeeCord which allows transfering players to multiple servers...ect)
+Current status: Alpha
 
-# Can I help out the team/contribute to BungeeCordPE?
- Why not? Just create a pull request. We're always looking for developers to help out with the project!
- 
-# What is BungeeCordPE written in?
-BungeeCordPE will be written in Java, same as [BukkitPE](https://www.github.com/BukkitPE/BukkitPE)
-
-# Is this ready?
-
-As of now, it isn't but you are more then welcoem to help us finishe it!
-
-Current status: Non-Working
+You are free to test it, and report bugs via the "Issues". Currently BungeeCordPE is on it testing stages
