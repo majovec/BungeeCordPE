@@ -17,11 +17,11 @@ Port:
 
 
 
-query_port: 19132
-Force_Default: false
-Default_server: Hub
+ListenPort: 19132
+ForceDefault: false
+Defaultserver: Hub
 max_players: 500
-fallback_server: Hub
+fallbackserver: Hub
 host: localhost
   
 #To add a new server, Just use the following example format
@@ -29,11 +29,4 @@ host: localhost
 # IP:
 # Port:
 #
-Servers:
-   Hub:
-     IP: test.example.com
-       Port: 19133
-       motd: "A BungeeCordPE Server"
-       
-
 ...
