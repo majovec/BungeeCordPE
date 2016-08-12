@@ -13,7 +13,7 @@
 # Status
 Current status: Alpha
 
-You are free to test it, and report bugs via the "Issues". Currently BungeeCordPE is on it testing stages
+You are free to test it, and report bugs via the "Issues". Currently BungeeCordPE is on testing stages
 
 *Jenkins Build Status*
       [![Jenkins Status](http://jenkins.bukkitpe.net:8080/job/BungeeCordPE/badge/icon)](http://jenkins.bukkitpe.net)
