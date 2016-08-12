@@ -1,4 +1,4 @@
-package net.BungeeCordPE.BungeeCordPE.session;
+package net.BungeeCordPE.session;
 
 import java.net.SocketAddress;
 
