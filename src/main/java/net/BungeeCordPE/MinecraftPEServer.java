@@ -43,7 +43,7 @@ public class MinecraftPEServer implements Runnable{
 
     @Override
     public void run() {
-        Thread.currentThread().setName("MCPE-Proxy");
+        Thread.currentThread().setName("BungeeCordPE");
 
         try {
             checkConfig();
@@ -64,7 +64,7 @@ public class MinecraftPEServer implements Runnable{
         logger.info("Logging Packet Decode errors to console: "+logPacketErrors);
         try{
             serverSocket = new DatagramSocket(port);
-                       logger.info("Server started on port "+port);
+                       logger.info("Proxy is listening on port: "+port);
             while(running){
 
                 serverSocket.setSoTimeout(2000);
