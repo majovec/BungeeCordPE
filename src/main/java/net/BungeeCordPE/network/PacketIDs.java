@@ -141,3 +141,4 @@ public class PacketIDs {
 	public static final byte MC_SERVER_HANDSHAKE = 0x10;
 	public static final byte MC_CLIENT_CONNECT = 0x09;
 	public static final byte MC_DISCONNECT_NOTIFICATION = 0x15;
+}
