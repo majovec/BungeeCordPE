@@ -17,11 +17,11 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with JRakLibPlus.  If not, see <http://www.gnu.org/licenses/>.
  */
-package io.github.jython234.jraklibplus.protocol.raknet;
+package net.BungeeCordPE.jython234.jraklibplus.protocol.raknet;
 
-import io.github.jython234.jraklibplus.protocol.RakNetPacket;
-import io.github.jython234.jraklibplus.nio.Buffer;
-import static io.github.jython234.jraklibplus.JRakLibPlus.*;
+import net.BungeeCordPE.jython234.jraklibplus.protocol.RakNetPacket;
+import net.BungeeCordPE.jython234.jraklibplus.nio.Buffer;
+import static net.BungeeCordPE.jython234.jraklibplus.JRakLibPlus.*;
 
 /**
  * ID_UNCONNECTED_PONG_OPEN_CONNECTIONS Packet implementation

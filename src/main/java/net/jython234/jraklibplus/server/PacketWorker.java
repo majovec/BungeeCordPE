@@ -17,10 +17,10 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with JRakLibPlus.  If not, see <http://www.gnu.org/licenses/>.
  */
-package io.github.jython234.jraklibplus.server;
+package net.BungeeCordPE.jython234.jraklibplus.server;
 
-import io.github.jython234.jraklibplus.JRakLibPlus;
-import io.github.jython234.jraklibplus.util.SystemAddress;
+import net.BungeeCordPE.jython234.jraklibplus.JRakLibPlus;
+import net.BungeeCordPE.jython234.jraklibplus.util.SystemAddress;
 
 import java.net.SocketAddress;
 import java.nio.BufferUnderflowException;

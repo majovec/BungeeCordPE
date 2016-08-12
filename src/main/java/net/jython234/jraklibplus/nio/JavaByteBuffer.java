@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with JRakLibPlus.  If not, see <http://www.gnu.org/licenses/>.
  */
-package io.github.jython234.jraklibplus.nio;
+package net.BungeeCordPE.jython234.jraklibplus.nio;
 
-import io.github.jython234.jraklibplus.util.SystemAddress;
+import net.BungeeCordPE.jython234.jraklibplus.util.SystemAddress;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

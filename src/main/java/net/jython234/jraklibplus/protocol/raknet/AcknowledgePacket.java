@@ -17,12 +17,12 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with JRakLibPlus.  If not, see <http://www.gnu.org/licenses/>.
  */
-package io.github.jython234.jraklibplus.protocol.raknet;
+package net.BungeeCordPE.jython234.jraklibplus.protocol.raknet;
 
-import io.github.jython234.jraklibplus.nio.Buffer;
-import io.github.jython234.jraklibplus.nio.JavaByteBuffer;
-import io.github.jython234.jraklibplus.nio.NioBuffer;
-import io.github.jython234.jraklibplus.protocol.RakNetPacket;
+import net.BungeeCordPE.jython234.jraklibplus.nio.Buffer;
+import net.BungeeCordPE.jython234.jraklibplus.nio.JavaByteBuffer;
+import net.BungeeCordPE.jython234.jraklibplus.nio.NioBuffer;
+import net.BungeeCordPE.jython234.jraklibplus.protocol.RakNetPacket;
 
 import java.nio.ByteOrder;
 import java.util.ArrayList;

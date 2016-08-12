@@ -17,13 +17,13 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with JRakLibPlus.  If not, see <http://www.gnu.org/licenses/>.
  */
-package io.github.jython234.jraklibplus.protocol.minecraft;
+package net.BungeeCordPE.jython234.jraklibplus.protocol.minecraft;
 
-import io.github.jython234.jraklibplus.nio.Buffer;
-import io.github.jython234.jraklibplus.protocol.RakNetPacket;
-import io.github.jython234.jraklibplus.util.SystemAddress;
+import net.BungeeCordPE.jython234.jraklibplus.nio.Buffer;
+import net.BungeeCordPE.jython234.jraklibplus.protocol.RakNetPacket;
+import net.BungeeCordPE.jython234.jraklibplus.util.SystemAddress;
 
-import static io.github.jython234.jraklibplus.JRakLibPlus.*;
+import static net.BungeeCordPE.jython234.jraklibplus.JRakLibPlus.*;
 
 /**
  * MC_CLIENT_HANDSHAKE Packet implementation.
