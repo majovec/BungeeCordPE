@@ -1,0 +1,28 @@
+#Configuration file for BungeeCordPE
+
+
+#BungeeCordPE listen port, What port will BungeeCordPE listens on?
+Port:
+ 
+
+Listen_Port: 19132
+Force_Default: false
+Default_server: Hub
+
+max_players: 500
+fallback_server: Hub
+Host: localhost
+  
+#To add a new server, Just use the following example format
+#Example:
+# IP:
+# Port:
+#
+Servers:
+   Hub:
+     IP: test.example.com
+       Port: 19133
+       motd: "A BungeeCordPE Server"
+       
+
+...
