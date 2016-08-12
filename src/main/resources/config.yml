@@ -22,7 +22,7 @@ ForceDefault: false
 Defaultserver: Hub
 max_players: 500
 fallbackserver: Hub
-host: localhost
+Host: localhost
   
 #To add a new server, Just use the following example format
 #Example:
