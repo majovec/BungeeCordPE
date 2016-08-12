@@ -57,7 +57,7 @@ public class MinecraftPEServer implements Runnable{
             config = (Map<String, Object>) yml.load(new FileReader("config.yml"));
             logPacketErrors = (boolean) config.get("logDecodeErrors");
             logChat = (boolean) config.get("logChat");
-            mainServer = new InetSocketAddress((String) (config.get("query_port")), (Integer)(config.get("host")));
+            mainServer = new InetSocketAddress((String) (config.get("ListenPort")), (Integer)(config.get("Host")));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
