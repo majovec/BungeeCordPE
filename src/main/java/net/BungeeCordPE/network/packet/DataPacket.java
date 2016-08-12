@@ -1,7 +1,7 @@
-package net.BungeeCordPE.BungeeCordPE.network.packet;
+package net.BungeeCordPE.network.packet;
 
-import net.BungeeCordPE.BungeeCordPE.util.ProxyException;
-import net.BungeeCordPE.BungeeCordPE.util.BinaryStream;
+import net.BungeeCordPE.util.ProxyException;
+import net.BungeeCordPE.util.BinaryStream;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

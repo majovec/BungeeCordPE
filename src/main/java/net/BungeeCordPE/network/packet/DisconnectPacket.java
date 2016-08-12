@@ -1,8 +1,8 @@
-package net.BungeeCordPE.BungeeCordPE.network.packet;
+package net.BungeeCordPE.network.packet;
 
 import java.io.IOException;
 
-import net.BungeeCordPE.BungeeCordPE.BungeeCordPE;
+import net.BungeeCordPE.BungeeCordPE;
 
 /**
  * MCPE Disconnect Packet (0x92).

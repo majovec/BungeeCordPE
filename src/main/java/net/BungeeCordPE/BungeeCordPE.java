@@ -1,5 +1,5 @@
-package net.BungeeCordPE.BungeeCordPE;
-import net.BungeeCordPE.BungeeCordPE.util.ProxyException;
+package net.BungeeCordPE;
+import net.BungeeCordPE.util.ProxyException;
 
 /*
  *

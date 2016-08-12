@@ -1,10 +1,10 @@
-package net.BungeeCordPE.BungeeCordPE.network.packet;
+package net.BungeeCordPE.network.packet;
 
 import java.io.IOException;
 import java.util.UUID;
 
-import net.BungeeCordPE.BungeeCordPE.BungeeCordPE;
-import net.BungeeCordPE.BungeeCordPE.util.*;
+import net.BungeeCordPE.BungeeCordPE;
+import net.BungeeCordPE.util.*;
 
 /**
  * MCPE Login Packet (0x8f).

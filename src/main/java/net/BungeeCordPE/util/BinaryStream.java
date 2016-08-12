@@ -1,4 +1,4 @@
-package net.BungeeCordPE.BungeeCordPE.util;
+package net.BungeeCordPE.util;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;

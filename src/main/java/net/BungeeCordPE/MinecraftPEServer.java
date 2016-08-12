@@ -1,4 +1,4 @@
-package net.BungeeCordPE.BungeeCordPE;
+package net.BungeeCordPE;
 
 import net.BungeeCordPE.network.PacketIntercepter;
 import net.BungeeCordPE.session.RemoteClientSession;

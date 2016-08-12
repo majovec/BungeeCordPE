@@ -1,4 +1,4 @@
-package net.BungeeCordPE.BungeeCordPE.util;
+package net.BungeeCordPE.util;
 
 /**
  * Global default exception used by the MCPE proxy.

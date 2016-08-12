@@ -1,4 +1,4 @@
-package net.BungeeCordPE.BungeeCordPE.network;
+package net.BungeeCordPE.network;
 
 /*
  *

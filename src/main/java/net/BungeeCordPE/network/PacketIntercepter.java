@@ -1,12 +1,12 @@
-package net.BungeeCordPE.BungeeCordPE.network;
+package net.BungeeCordPE.network;
 
-import net.BungeeCordPE.BungeeCordPE.MinecraftPEServer;
-import net.BungeeCordPE.BungeeCordPE.network.packet.*;
-import net.BungeeCordPE.BungeeCordPE.session.RemoteClientSession;
-import net.BungeeCordPE.BungeeCordPE.util.ProxyException;
-import net.BungeeCordPE.BungeeCordPE.util.*;
+import net.BungeeCordPE.MinecraftPEServer;
+import net.BungeeCordPE.network.packet.*;
+import net.BungeeCordPE.session.RemoteClientSession;
+import net.BungeeCordPE.util.ProxyException;
+import net.BungeeCordPE.util.*;
 
-import static net.BungeeCordPE.BungeeCordPE.network.PacketIDs.*;
+import static net.BungeeCordPE.network.PacketIDs.*;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

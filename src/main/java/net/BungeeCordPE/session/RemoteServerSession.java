@@ -1,8 +1,8 @@
-package net.BungeeCordPE.BungeeCordPE.session;
+package net.BungeeCordPE.session;
 
-import net.BungeeCordPE.BungeeCordPE.*;
-import net.BungeeCordPE.BungeeCordPE.util.Binary;
-import net.BungeeCordPE.BungeeCordPE.network.packet.DataPacket;
+import net.BungeeCordPE.*;
+import net.BungeeCordPE.util.Binary;
+import net.BungeeCordPE.network.packet.DataPacket;
 
 import java.io.IOException;
 import java.net.*;
