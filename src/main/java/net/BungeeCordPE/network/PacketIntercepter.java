@@ -14,8 +14,8 @@ import java.nio.ByteBuffer;
 import java.net.*;
 import java.util.*;
 
-import io.github.jython234.jraklibplus.protocol.raknet.*;
-import io.github.jython234.jraklibplus.protocol.raknet.CustomPackets.*;
+import net.BungeeCordPE.jython234.jraklibplus.protocol.raknet.*;
+import net.BungeeCordPE.jython234.jraklibplus.protocol.raknet.CustomPackets.*;
 
 /**
  *
