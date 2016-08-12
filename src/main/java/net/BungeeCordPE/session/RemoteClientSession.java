@@ -1,8 +1,8 @@
-package net.BungeeCordPE.BungeeCordPE.session;
+package net.BungeeCordPE.session;
 
-import net.BungeeCordPE.BungeeCordPE.MinecraftPEServer;
-import net.BungeeCordPE.BungeeCordPE.network.packet.DataPacket;
-import net.BungeeCordPE.BungeeCordPE.util.*;
+import net.BungeeCordPE.MinecraftPEServer;
+import net.BungeeCordPE.network.packet.DataPacket;
+import net.BungeeCordPE.util.*;
 
 import java.io.IOException;
 import java.lang.reflect.Proxy;
