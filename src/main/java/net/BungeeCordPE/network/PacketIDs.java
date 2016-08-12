@@ -136,7 +136,7 @@ public class PacketIDs {
     public static final byte CHUNK_RADIUS_UPDATED_PACKET = (byte) 0x3e;
     public static final byte ITEM_FRAME_DROP_ITEM_PACKET = (byte) 0x3f;
     public static final byte REPLACE_SELECTED_ITEM_PACKET = (byte) 0x40;
-    public static final byte ADD_ITEM_PACKET = (byte) 0x41;-   
+    public static final byte ADD_ITEM_PACKET = (byte) 0x41;
 	public static final byte MC_CLIENT_HANDSHAKE = 0x13;
 	public static final byte MC_SERVER_HANDSHAKE = 0x10;
 	public static final byte MC_CLIENT_CONNECT = 0x09;
