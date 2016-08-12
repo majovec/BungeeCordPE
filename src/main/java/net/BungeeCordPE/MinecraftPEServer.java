@@ -1,8 +1,8 @@
 package net.BungeeCordPE.BungeeCordPE;
 
-import net.BungeeCordPE.BungeeCordPE.network.PacketIntercepter;
-import net.BungeeCordPE.BungeeCordPE.session.RemoteClientSession;
-import net.BungeeCordPE.BungeeCordPE.session.RemoteServerSession;
+import net.BungeeCordPE.network.PacketIntercepter;
+import net.BungeeCordPE.session.RemoteClientSession;
+import net.BungeeCordPE.session.RemoteServerSession;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.yaml.snakeyaml.Yaml;
