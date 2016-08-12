@@ -64,7 +64,18 @@ public class MinecraftPEServer implements Runnable{
         logger.info("Logging Packet Decode errors to console: "+logPacketErrors);
         try{
             serverSocket = new DatagramSocket(port);
-            logger.info("Server started on port "+port);
+            logger.info(""
+______                             _____               _______ _____ 
+| ___ \                           /  __ \             | | ___ \  ___|
+| |_/ /_   _ _ __   __ _  ___  ___| /  \/ ___  _ __ __| | |_/ / |__  
+| ___ \ | | | '_ \ / _` |/ _ \/ _ \ |    / _ \| '__/ _` |  __/|  __| 
+| |_/ / |_| | | | | (_| |  __/  __/ \__/\ (_) | | | (_| | |   | |___ 
+\____/ \__,_|_| |_|\__, |\___|\___|\____/\___/|_|  \__,_\_|   \____/ 
+                    __/ |                                            
+                   |___/                                             
+*
+* Proxy is on, and operating!
+*");
             while(running){
 
                 serverSocket.setSoTimeout(2000);
