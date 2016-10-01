@@ -24,8 +24,8 @@ import net.BungeeCordPE.util.ProxyException;
 
 public class BungeeCordPE implements Runnable{
     public final static String SOFTWARE_VERSION = "v1.1-SNAPSHOT";
-    public final static String MCPE_VERSION = "0.15.4";
-    public final static int MCPE_PROTOCOL = 82;
+    public final static String MCPE_VERSION = "0.15.9";
+    public final static int MCPE_PROTOCOL = 83;
 
     public static MinecraftPEServer SERVER_INSTANCE;
     public static int PORT = 49256;
